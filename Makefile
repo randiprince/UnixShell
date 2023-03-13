@@ -1,13 +1,11 @@
-#Makefile - CS6015 MSDscript
+#Makefile - Operating Systems Unix Shell
 #Targets and what they do:
-#build runs the executable
-#MSDscript creates the executable
+#UnixShell creates the executable
 #*.o targets compile .cpp and .h files into an o file
 #clean removes all files and executables
 
 CXXSOURCE = main.o shelpers.o
 HEADERS = shelpers.hpp
-HEADERS2 = test_msdscript/test_msdscript/exec.h
 CXXFLAGS = --std=c++14
 COMPILER = c++
 COMPILEOPTS = -c
